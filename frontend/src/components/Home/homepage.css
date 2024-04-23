@@ -1,0 +1,91 @@
+/* This sets a default font family for all elements inside an element with the class 'homepage'. */
+.homepage {
+  font-family: Arial, sans-serif;
+}
+
+/* This styles the navigation bar, giving it a white background, some shadow for depth, and ensuring the items inside are spaced out and aligned. */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* This limits the size of the logo within the navbar. */
+.logo {
+  max-width: 150px;
+  /* Adjust this value to set the maximum width of your logo */
+}
+
+/* This removes the default underline from links in the navbar and spaces them out. */
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  margin-left: 20px;
+}
+
+/* The 'hero' class is typically used for a large banner image or section at the top of a webpage. */
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+/* This sets the style for the hero image. To change the height, you can adjust the height property. */
+.hero-image {
+  max-width: 100%;
+  height: 3%;
+  /* Adjust this value to decrease the height */
+  display: centre;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* The following classes style text overlay and a call-to-action button on the hero image. */
+.hero-text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.hero-text h1 {
+  color: #000;
+}
+
+.cta-button {
+  background-color: #0066cc;
+  color: #fff;
+  padding: 20px 50px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 30px;
+}
+
+/* This styles a gallery section with items displayed in a row. */
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2em;
+}
+
+.gallery-item {
+  width: 30%;
+  text-align: center;
+}
+
+/* Media queries apply different styles when the viewport width is 768px or smaller, adjusting the layout for mobile devices. */
+@media (max-width: 768px) {
+  .gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gallery-item {
+    width: 80%;
+    margin-bottom: 1em;
+  }
+}
