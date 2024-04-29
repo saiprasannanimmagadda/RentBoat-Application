@@ -9,18 +9,14 @@ import paddleBoardImage from './images/paddleboardrentals.jpg';
 import './homepage.css';
 
 const Home = () => {
-    const handleLogout = () => {
-        localStorage.removeItem("token");
-        window.location.reload();
-    };
+
     return (
         <div className="homepage">
             <header className="navbar">
                 <img src={logoImage} alt="Nauti Jane's Boat Rentals" className="logo" />
                 <nav className="nav-links">
-                    <a href="#about">ABOUT US</a>
-                    <a href="#rentals">RENTALS</a>
-                    <a href="#contact">CONTACT US</a>
+                    <a href="/aboutus">ABOUT US</a>
+                    <a href="/contact">CONTACT US</a>
                     <Link to="/login">Login/Sign In</Link>
 
                 </nav>
@@ -29,7 +25,7 @@ const Home = () => {
                 <img src={heroImage} alt="Boat on Water" className="hero-image" />
                 <div className="hero-text">
                     <h1>RENTALS IN YOUR BACKYARD</h1>
-                    <button className="cta-button"><h1>BOOK NOW</h1></button>
+                    <Link to="/booking"><button className="cta-button"><h1>BOOK NOW</h1></button></Link>
                 </div>
             </section>
             <div className="gallery">

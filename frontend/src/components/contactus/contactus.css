@@ -1,0 +1,33 @@
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .contact-container h1,
+  .contact-container h2 {
+    color: #333;
+  }
+  
+  .contact-container address {
+    margin-bottom: 1em;
+  }
+  
+  .contact-container .button {
+    display: inline-block;
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    background-color: #0066cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .contact-container .hours,
+  .contact-container .contact-buttons {
+    margin-top: 2em;
+  }
+  
+  /* Additional styles for hours and directions could go here */
+  

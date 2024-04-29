@@ -24,27 +24,27 @@ const rentboatSchema = new mongoose.Schema({
     },
     email: {
         type: String,
-        required: [true, 'Email is required field'] // We are validating duartion ans name fields  
+        required: [true, 'Email is required field']
     },
     type: {
         type: String,
-        required: [true, 'Type is required field'] // We are validating duartion ans name fields  
+        required: [true, 'Type is required field']
     },
     count: {
         type: Number,
-        required: [true, 'Number of boat needed is required field'] // We are validating duartion ans name fields  
+        required: [true, 'Number of boat needed is required field']
     },
     duration: {
         type: Number,
-        required: [true, 'Duration is required field'] // We are validating duartion ans name fields  
+        required: [true, 'Duration is required field']
     },
     date: {
         type: Date,
-        required: [true, 'Date is required field'] // We are validating duartion ans name fields  
+        required: [true, 'Date is required field']
     },
     startTime: {
         type: String,
-        required: [true, 'startTime is required field'] // We are validating duartion ans name fields  
+        required: [true, 'startTime is required field']
     },
     createdAt: {
         type: Date,

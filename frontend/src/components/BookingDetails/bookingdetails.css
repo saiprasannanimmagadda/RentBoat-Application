@@ -1,0 +1,35 @@
+.input {
+    background-color: #3b237d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 5px;
+    padding: 15px;
+}
+
+.red_btn {
+    background-color: #d8104c;
+    color: white;
+    margin: 10px;
+}
+
+.right_details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.centered-container {
+
+    background-color: rgb(153, 153, 165);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}

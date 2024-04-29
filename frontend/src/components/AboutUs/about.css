@@ -1,0 +1,32 @@
+.about-us-container {
+  padding: 20px;
+  margin: auto;
+  max-width: 800px;
+  background-color: #f2f2f2; /* Light grey background */
+  color: #333; /* Dark grey text */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Slight shadow for depth */
+}
+
+.about-us-container h1,
+.about-us-container h2 {
+  color: #0066cc; /* A shade of blue for headings */
+  margin-bottom: 0.5em;
+}
+
+.about-us-container p {
+  line-height: 1.6; /* Spacing out the lines for readability */
+  margin-bottom: 1em; /* Space below paragraphs */
+}
+
+.about-us-container ul {
+  list-style-type: none; /* Removing default list styling */
+  padding: 0;
+}
+
+.about-us-container li {
+  background-color: #e6e6e6; /* Slightly darker list item background */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px; /* Rounded corners for list items */
+}
