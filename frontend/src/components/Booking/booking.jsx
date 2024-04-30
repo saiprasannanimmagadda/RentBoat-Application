@@ -105,11 +105,11 @@ const Booking = () => {
                                 </select>
                                 <input type='number' placeholder='Number of Boats' name='count' onChange={handleChange}
                                     value={data.count} required className="input" />
-                                <input type='number' placeholder='duration' name='duration' onChange={handleChange}
+                                <input type='number' placeholder='Duration in hour' name='duration' onChange={handleChange}
                                     value={data.duraton} required className="input" />
-                                <input type='date' placeholder='date' name='date' onChange={handleChange}
+                                <input type='date' placeholder='Booking date' name='date' onChange={handleChange}
                                     value={data.date} required className="input" />
-                                <input type='text' placeholder='start time' name='startTime' onChange={handleChange}
+                                <input type='text' placeholder='Start Time EST' name='startTime' onChange={handleChange}
                                     value={data.startTime} required className="input" />
                                 {error && <div >{error}</div>}
                                 <button type='submit' className="green_btn">Book Now</button>
